@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishal Fitness</title>
+   
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Averia Serif Libre', cursive;
+            font-weight: bold;
+        }
+
+
+        .left {
+
+            position: absolute;
+            left: 22px;
+            top: 20px;
+            display: inline-block;
+            font-size: 50px;
+            text-align: center;
+        }
+
+        .mid {
+            border: 7px solid purple;
+            display: block;
+            width: 33%;
+           
+            margin: 20px auto;
+
+        }
+
+        .right {
+           
+            position: absolute;
+            top: 20px;
+            right: 22px;
+            display: inline-block;
+            font-size: 50px;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: white;
+
+
+        }
+
+        .navbar li {
+            display: inline-block;
+          
+            padding: 0px 20px;
+            font-size: 50px;
+        }
+        .btn{
+            font-family: 'Averia Serif Libre', cursive;
+            font-size: 50px;
+            margin: 0px 15px;
+            color: white;
+            background-color:grey;
+            padding: 4px 12px;
+            border: 3px solid black;
+            border-radius: 20px;
+            cursor: pointer;
+
+
+        }
+        .btn:hover{
+              background-color: coral;
+              color: blueviolet;
+        }
+
+        .navbar li :hover {
+            text-decoration: underline;
+            color: blue;
+        }
+
+        .left img {
+            width: 230px;
+            height: 150px;
+           
+        }
+        .container{
+            border: 2px solid white;
+            padding: 250px 200px;
+            margin: 150px 250px;
+            width: 30%;
+            font-size: 30px;
+            border-radius: 40px;
+        }
+        .form-group input{
+           
+            height: 50px;
+            width: 1000px;
+            font-size: 40px;
+            margin: 18px 110px;
+            padding: 10px 20px;
+            display: block;
+           text-align: center;
+           border: 2px solid black;
+           border-radius: 30px;
+           font-weight: bold;
+        }
+        #ooi{
+            margin: 25px 110px;
+            width: 1030px;
+            border-radius: 30px;
+
+        }
+        .container h1{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body
+    style="background-image: url('https://images.pexels.com/photos/4662341/pexels-photo-4662341.jpeg?cs=srgb&dl=pexels-anthoraba-4662341.jpg&fm=jpg');">
+    <header class="header">
+        <div class="left">
+            <img src="https://images.pexels.com/photos/4793239/pexels-photo-4793239.jpeg?cs=srgb&dl=pexels-anete-lusina-4793239.jpg&fm=jpg"
+                alt="">
+                <div>Vishal Fitness</div>
+            <!-- left box for logo -->
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness calculator</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+            <!-- Mid box for navbar -->
+        </div>
+        <div class="right">
+            <button class="btn">
+                Call us now
+            </button><button class="btn">
+                Email us
+            </button>
+            <!-- Right box for buttons -->
+        </div>
+    </header>
+   
+        <div class="container">
+           <h1>Join the best gym of Delhi now</h1>
+         <form action="noaction.php">
+             <div class="form-group">
+                 <input type="text" name="" placeholder="Enter your Name">
+             </div>
+             <div class="form-group">
+                 <input type="text" name="" placeholder="Enter your Age">
+             </div>
+             <div class="form-group">
+                 <input type="text" name="" placeholder="Enter your Gender">
+             </div>
+             <div class="form-group">
+                 <input type="text" name="" placeholder="Enter your Locality">
+             </div>
+            <button class="btn" id="ooi">Submit</button>
+
+         </form>
+        </div>
+   
+</body>
+
+</html>
